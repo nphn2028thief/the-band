@@ -1,0 +1,85 @@
+/* Responsive PC: >= 1024px */
+@media (min-width: 64em) {
+    
+}
+
+/* Responsive Tablet: >= 740px && <= 1023px and Mobile: < 739px */
+@media (max-width: 63.9375em) {
+    .btn {
+        width: 100%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+/* Responsive Tablet:  >= 740px && <= 1023px*/
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
+
+/* Responsive Mobile: < 739px */
+@media (max-width: 46.1875em) {
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        /* Loại bỏ đi position absolute, thay thế bằng position mặc định ban đầu */
+        position: initial;
+        background-color: #444;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 4px 40px;
+    }
+
+    #header .ic-search {
+        display: none;
+    }
+
+    #header .ic-mobile-menu {
+        display: inline-block;
+    }
+
+    #slider .slider-content {
+        display: none;
+    }
+
+    #content .about-members {
+        margin-top: 32px;
+    }
+
+    #content .member-item-mobile {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    #content .member-img {
+        width: 63%;
+    }
+
+    .s-col-ful {
+        width: 100%;
+    }
+
+    .contact-form .contact-input {
+        margin-top: 16px;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+}

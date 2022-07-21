@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band Project</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Header -->
+        <div id="header">
+
+            <!-- Begin: Navigation -->
+            <ul id="nav">
+                <li><a href="#">home</a></li>
+                <li><a href="#band">band</a></li>
+                <li><a href="#tour">tour</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li>
+                    <a href="#">
+                        more
+                        <i class="ic-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">merchandise</a></li>
+                        <li><a href="#">extras</a></li>
+                        <li><a href="#">media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End: Navigation -->
+            <!-- Search icon -->
+            <div class="ic-search">
+                <i class="ti-search"></i>
+            </div>
+
+            <div class="ic-mobile-menu">
+                <i class="ti-menu"></i>
+            </div>
+        </div>
+
+        <!-- Slider -->
+        <div id="slider">
+            <img src="./assets/img/slider/newyork.jpg" class="slider-img" />
+            <div class="slider-content">
+                <h2 class="slider-title">new york</h2>
+                <p class="slider-desc">The atmosphere in New York is lorem ipsum.</p>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div id="content">
+            <!-- About section -->
+            <div id="band" class="content-section">
+                <h3 class="section-title">the band</h3>
+                <p class="section-subtitle">We love music</p>
+                <p class="about-content">We have created a fictional band website. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+
+                <div class="about-members">
+                    <div class="member-item-mobile col col-third text-center">
+                        <p class="member-name">name</p>
+                        <img src="./assets/img/band/member.jpg" alt="name" class="member-img">
+                    </div>
+
+                    <div class="member-item-mobile col col-third text-center">
+                        <p class="member-name">name</p>
+                        <img src="./assets/img/band/member.jpg" alt="name" class="member-img">
+                    </div>
+
+                    <div class="member-item-mobile col col-third text-center">
+                        <p class="member-name">name</p>
+                        <img src="./assets/img/band/member.jpg" alt="name" class="member-img">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <!-- Tour section -->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h3 class="section-title text-white">tour dates</h3>
+                    <p class="section-subtitle text-white">Remember to book your tickets!</p>
+
+                    <ul class="slots-info">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+
+                    <div class="row places-section">
+                        <div class="s-col-ful col-third col">
+                            <img src="./assets/img/places/ny.jpg" alt="New York" class="place-img">
+                            <div class="place-info">
+                                <h3 class="place-name">new york</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn text-white js-buy-ticket">buy tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="s-col-ful col-third col">
+                            <img src="./assets/img/places/paris.jpg" alt="Paris" class="place-img">
+                            <div class="place-info">
+                                <h3 class="place-name">paris</h3>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn text-white js-buy-ticket">buy tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="s-col-ful col-third col">
+                            <img src="./assets/img/places/sf.jpg" alt="San Francisco" class="place-img">
+                            <div class="place-info">
+                                <h3 class="place-name">san francisco</h3>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn text-white js-buy-ticket">buy tickets</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact section -->
+            <div id="contact" class="content-section">
+                <h3 class="section-title">contact</h3>
+                <p class="section-subtitle">Fan? Drop a note!</p>
+
+                <!-- <div class="row contact-form">
+                    <div class="col col-half contact-info">
+                        <p><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                    </div>
+
+                    <div class="col col-half contact-input">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                </div>
+
+                                <div class="col col-half">
+                                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Message" required id="" class="form-control">
+                                </div>
+                            </div>
+
+                            <input type="submit" class= "form-submit-btn" value="SEND">
+                        </form>
+                    </div>
+                </div> -->
+
+                <div class="row contact-form">
+                    <div class="s-col-ful col col-half contact-info">
+                        <p><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                    </div>
+
+                    <div class="s-col-ful col col-half contact-input">
+                        <form action="">
+                            <div class="row">
+                                <div class="col s-col-ful col-half">
+                                    <input type="text" placeholder="Name" required name="" id="" class="form-control">
+                                </div>
+
+                                <div class="col s-col-ful s-mt-8 col-half">
+                                    <input type="email" placeholder="Email" required name="" id="" class="form-control">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" placeholder="Message" required name="" id=""
+                                        class="form-control">
+                                </div>
+                            </div>
+                            <input class="btn text-white pull-right mt-16" type="submit" value="SEND">
+                        </form>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <img src="./assets/img/map.jpg" alt="Map">
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer">
+            <div class="social-lists">
+                <i class="ti-facebook"></i>
+                <i class="ti-instagram"></i>
+                <i class="ti-youtube"></i>
+                <i class="ti-pinterest"></i>
+                <i class="ti-twitter"></i>
+                <i class="ti-linkedin"></i>
+            </div>
+
+            <p class="copyright">Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+        </div>
+    </div>
+
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+
+            <header class="modal-header">
+                <i class="modal-heading-icon ti-bag"></i>
+                <p class="modal-heading-text">Tickets</p>
+            </header>
+
+            <div class="modal-body">
+                <label for="ticket-price" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" name="" placeholder="How many?" id="ticket-price" class="modal-input">
+
+                <label for="ticket-email" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send To
+                </label>
+                <input type="email" name="" placeholder="Enter email" id="ticket-email" class="modal-input">
+
+                <button class="modal-pay-btn">
+                    Pay <i class="ti-check"></i>
+                </button>
+            </div>
+
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a class="text-blue" href="#">help?</a></p>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="./assets/js/slide.js"></script>
+
+    <script src="./assets/js/modal.js"></script>
+
+    <script src="./assets/js/mobile.js"></script>
+
+</body>
+
+</html>
